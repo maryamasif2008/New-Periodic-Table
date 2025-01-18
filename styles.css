@@ -1,0 +1,128 @@
+h1{
+    background-color: rgb(233, 121, 140);
+    color: white;
+    width: 300px;
+    line-height: 50px ;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 30px;
+    box-shadow: 0px 1px 7px rgb(95, 94, 94);
+}
+
+td{
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px black;
+}
+
+.number{
+    line-height: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+.name{
+    line-height: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.fullname{
+    line-height: 0px;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.one{
+    background: rgb(245,238,239);
+    background: linear-gradient(0deg, rgba(245,238,239,1) 0%, rgba(55,118,183,1) 100%);
+}
+
+.two{
+    background: rgb(241,121,196);
+    background: linear-gradient(0deg, rgba(241,121,196,1) 0%, rgba(247,6,19,1) 100%);
+    color: white;
+}
+
+.three{
+    background: rgb(242,244,71);
+    background: linear-gradient(0deg, rgba(242,244,71,1) 0%, rgba(253,107,8,1) 100%);
+    color: white;
+}
+
+.four{
+    background: rgb(251,252,254);
+    background: linear-gradient(0deg, rgba(251,252,254,1) 0%, rgba(6,159,249,1) 100%);
+}
+
+.fifth{
+    background: rgb(251,254,40);
+    background: linear-gradient(0deg, rgba(251,254,40,1) 0%, rgba(252,172,117,1) 100%);
+}
+
+.sixth{
+    background: rgb(104,244,35);
+    background: linear-gradient(0deg, rgb(159, 238, 120) 0%, rgb(2, 133, 13) 100%);
+}
+
+.seventh{
+    background-color: rgb(208, 205, 209);
+}
+
+.eight{
+    background: rgb(245,247,244);
+    background: linear-gradient(0deg, rgb(236, 206, 245) 0%, rgba(92,12,126,1) 100%);
+}
+
+.ninth{
+    background-color: rgb(67, 129, 245) ;
+}
+
+.ten{
+    background-color:   rgb(120, 204, 186);
+}
+
+.eleven{
+    background: rgb(245,247,244);
+    background: linear-gradient(0deg, rgba(245,247,244,1) 0%, rgb(253, 29, 201) 100%);
+}
+
+.twelve{
+    background: rgb(245,247,244);
+    background: linear-gradient(0deg, rgba(245,247,244,1) 0%, rgba(173,31,139,1) 100%);
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 480px) {
+    h1 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+    td {
+        width: 40px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .number {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .fullname {
+        font-size: 6px;
+    }
+    /* Adjusting background gradients for smaller screens */
+    .one, .two, .three, .four, .fifth, .sixth, .seventh, .eight, .ninth, .ten, .eleven, .twelve {
+        background-size: cover;
+    }
+}
